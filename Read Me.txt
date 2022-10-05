@@ -13,9 +13,18 @@
      (after it is synced the first time, you can only write git push)
 # check your github.com account and see if the contents are uploaded.
 DONE
+
 OTHER COMMANDS
 ---------------------------------------------------------------------------------
 # git clone https://github.com/your_repository.git
     when we want to bring home a brand new project 
+
 # git pull (origin)
     when we want to download the latest update (if we have access to the repo)
+---------------------------------------------------------------------------    
+    Git access token commands
+    -------------------------
+# git remote add origin https://[USERNAME]:[NEW TOKEN]@github.com/[USERNAME]/[REPO].git
+how to generate token : https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token
+or if you have set origin before 
+# git remote set-url origin https://[USERNAME]:[NEW TOKEN]@github.com/[USERNAME]/[REPO].git
