@@ -1,0 +1,21 @@
+# git init
+    create a new git in a specific folder. (only once)
+     (a hidden folder called .git is created, we don't need to go into it)
+# git remote add origin https://github.com/dinrepoadress.git
+    This connects your git with your github (only once)
+---------------------------------------------------------------------------------
+# git add .
+    to add new files to index  (the dot means all of the files will be added, make sure its a space between add and dot.)
+# git commit -m "A sensible message"
+    To save new files and changed files
+# git push -u origin master (git push)
+    to sync the local git with your github repo
+     (after it is synced the first time, you can only write git push)
+# check your github.com account and see if the contents are uploaded.
+DONE
+OTHER COMMANDS
+---------------------------------------------------------------------------------
+# git clone https://github.com/your_repository.git
+    when we want to bring home a brand new project 
+# git pull (origin)
+    when we want to download the latest update (if we have access to the repo)
